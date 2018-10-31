@@ -12,8 +12,10 @@ This uses the MongoDB driver, used by end users usually.
 Restrictions:
 1) Everytime the node program is called, it connects to the DB again.
 2) The Server to which it is connecting is on the localhost.
-3) There is only one process is writing to the database.
+3) There is only one process is writing to the database. No one else is using
+the DB.
 4) We are using the high level abstracted MongoDB library of nodejs. (They have
   another library for framework developers)
 5) These are the most basic operations performed with no serializable options, or
   sharding or caching.
+6) There are no replica sets.

@@ -4,9 +4,9 @@
 
 
 counter=1
-while [ $counter -le 10 ]
+while [ $counter -le  1 ]
 do
-echo $counter
+echo $counter $counter
 ((counter++))
 done
 echo All done

@@ -1,0 +1,17 @@
+RQ1: Using ORMs a good choice or not?
+RQ2: Do microcontrollers show same behaviour as a proper desktop in terms of processing.
+RQ3: The number of connection requests that MongoDB can handle? Very vulnerable to DOS attacks to cause crashes. 
+RQ4: This pertains to the server FS:
+	RQ4.1-> Same network, differnt device server of similar config
+	RQ4.2-> Same network, connects to a device with lower computation power.
+	RQ4.3-> Same network, connects to a device with server of higher computation power
+	RQ4.4-> Different network, same config device server
+	RQ4.5-> Different network, High config device server
+	RQ4.6-> Different network, low config device server
+RQ5: Security
+	RQ5.1-> Authentication checks (See if it works, they provide support)
+	RQ5.2-> Susceptible to DOS attacks
+	RQ5.3-> Data overflow. Once connected, you can keep sending repeated amount of data bam bam
+
+
+ 

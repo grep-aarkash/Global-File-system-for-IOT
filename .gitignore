@@ -1,2 +1,8 @@
 # Don't track content of these folders
 node_modules/
+igfs/CRUD/DATA
+igfs/CRUD-2/DATA
+igfs/GridFS/DATA
+igfs/ORM/DATA
+
+

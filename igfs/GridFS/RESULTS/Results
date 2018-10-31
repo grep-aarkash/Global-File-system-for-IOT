@@ -1,0 +1,25 @@
+Results:
+
+1) It streams data and stores the data in form of chucks and files.
+2) During the program creation, if you directly run the entire code, it shows errors such as db.collection not found.
+So I tested it, and realized if a collection does not exist then first you need to create it, other
+wise it doesn't work.
+
+3) imp: Does not support mp4 files. it upload the mp4 file, but when I tried downloading it, it 
+did not open.
+However, it does support mp3 files and also allows manipulation of the mp3 files. Which is pretty cool. It allows editing.
+
+4) Definitely faster than simple CRUD operations.
+
+5)Ran out of memory (HAHA)
+
+6) AssertionError [ERR_ASSERTION]: ifError got unwanted exception: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+Again the MongoDB error.
+
+After a particular number of iterations, I need to purge MongoDB. Inside stuff (THATS WHY WE NEED
+FORMAL VERIFICATION, hehe)
+
+Crashed after 75*76 = 5700 iterations
+
+
+

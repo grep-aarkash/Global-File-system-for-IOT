@@ -1,0 +1,16 @@
+Results:
+
+For my PC which has very high configuration (32 GB RAM and 1 TB hard disk)
+1) Since here during every write call, we were connecting it to MongoDB, MongoDB eventually crashed. Had to purge and re-install everything.
+
+2) The script does nested iterations to calculate the amount, which seems to be rising consistenly, and the behaviour is quite similar to what we had expected it to be.
+
+3)The same tests when performed on small config device.
+
+Conclusions:
+
+1)With repeated connection requests to the localhost,mongodb crashed again.
+	Does not even connect again to mongodb, 
+ 	but to run the next test had to purge and reinstall MongoDB AGAIN
+
+
